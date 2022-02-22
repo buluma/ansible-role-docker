@@ -24,7 +24,7 @@ jobs:
           GITLAB_HOSTNAME: "gitlab.com"
           GITLAB_USERNAME: "buluma"
           GITLAB_PASSWORD: ${{ secrets.GITLAB_PASSWORD }}
-          GITLAB_PROJECT_ID: "3340722x" # TODO Update Gitlab
+          GITLAB_PROJECT_ID: "33944762"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Slack Notification
         uses: act10ns/slack@v1
