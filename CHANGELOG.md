@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.6](https://github.com/buluma/ansible-role-docker/tree/1.0.6) (2022-07-15)
+
+[Full Changelog](https://github.com/buluma/ansible-role-docker/compare/1.0.5...1.0.6)
+
 ## [1.0.5](https://github.com/buluma/ansible-role-docker/tree/1.0.5) (2022-04-02)
 
 [Full Changelog](https://github.com/buluma/ansible-role-docker/compare/1.0.4...1.0.5)
