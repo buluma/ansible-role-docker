@@ -21,8 +21,8 @@
         image: buluma/docker-centos-openssh
         ports:
           - "2222:22"
-      when:
-        - ansible_connection not in [ "container", "docker", "community.docker.docker" ]
+      # when:
+      # - ansible_connection not in [ "container", "docker", "community.docker.docker" ]
 
     - name: Make sure we are not running podman
       ansible.builtin.command:

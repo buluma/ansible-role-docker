@@ -34,5 +34,6 @@
     enabled: yes
   notify:
     - Change group for docker socket
-  when:
-    - ansible_connection not in [ "container", "docker", "community.docker.docker" ]
+  tags: converge
+  # when:
+  # - ansible_connection not in [ "container", "docker", "community.docker.docker" ]
