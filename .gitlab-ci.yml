@@ -16,12 +16,6 @@ molecule:
     matrix:
       - image: "alpine-openrc"
         tag: "latest"
-      - image: "ubuntu"
-        tag: "latest"
-      - image: "docker-ubuntu-systemd"
-        tag: "focal"
-      - image: "gitlab-runner"
-        tag: "ubuntu"
 
 testing:
   stage: test
