@@ -1,10 +1,10 @@
-# [docker](#docker)
+# [Ansible role docker](#docker)
 
 Install and configure Docker (non-CE) on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-docker/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-docker/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-docker/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-docker)|[![quality](https://img.shields.io/ansible/quality/54979)](https://galaxy.ansible.com/buluma/docker)|[![downloads](https://img.shields.io/ansible/role/d/54979)](https://galaxy.ansible.com/buluma/docker)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-docker/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-docker/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-docker/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-docker)|[![downloads](https://img.shields.io/ansible/role/d/4688)](https://galaxy.ansible.com/buluma/docker)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
