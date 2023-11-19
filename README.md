@@ -63,8 +63,8 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 
 # Add users to the privileged docker group. For example:
 # docker_privileged_users:
-#  - UserA
-#  - UserB
+#   - UserA
+#   - UserB
 docker_privileged_users: []
 ```
 
@@ -103,7 +103,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
 |[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|
 
-The minimum version of Ansible required is 2.10, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done to:
 
 - The previous version.
 - The current version.
