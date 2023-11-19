@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-docker/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-docker/compare/1.0.7...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#11](https://github.com/buluma/ansible-role-docker/issues/11)
+- Update action [\#10](https://github.com/buluma/ansible-role-docker/issues/10)
+
 ## [1.0.7](https://github.com/buluma/ansible-role-docker/tree/1.0.7) (2023-05-04)
 
 [Full Changelog](https://github.com/buluma/ansible-role-docker/compare/1.0.6...1.0.7)
