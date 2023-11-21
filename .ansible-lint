@@ -15,12 +15,6 @@ exclude_paths:
 
 skip_list:
   - yaml[truthy]
-  - no-changed-when
-  - galaxy[version-missing]
-  - schema[galaxy]
-  - galaxy[tags]
-  - galaxy[no-changelog]
-  - schema[requirements]
 
 enable_list:
   - name[prefix]
