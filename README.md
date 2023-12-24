@@ -1,10 +1,10 @@
-# [Ansible role docker](#docker)
+# Ansible role [docker](https://galaxy.ansible.com/ui/standalone/roles/buluma/docker/documentation)
 
 Install and configure Docker (non-CE) on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-docker/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-docker/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-docker/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-docker/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-docker.svg)](https://github.com/buluma/ansible-role-docker/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/docker)](https://galaxy.ansible.com/ui/standalone/roles/buluma/docker/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -117,13 +117,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-docker/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-docker/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
