@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-docker/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-docker/compare/1.2.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#22](https://github.com/buluma/ansible-role-docker/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.2.0](https://github.com/buluma/ansible-role-docker/tree/1.2.0) (2024-01-09)
 
 [Full Changelog](https://github.com/buluma/ansible-role-docker/compare/1.1.0...1.2.0)
