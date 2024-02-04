@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-docker/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-docker/compare/1.3.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 5 to 6 [\#23](https://github.com/buluma/ansible-role-docker/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.3.0](https://github.com/buluma/ansible-role-docker/tree/1.3.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-docker/compare/1.2.0...1.3.0)
