@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#25](https://github.com/buluma/ansible-role-docker/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#24](https://github.com/buluma/ansible-role-docker/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#23](https://github.com/buluma/ansible-role-docker/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 
@@ -34,7 +35,6 @@
 **Merged pull requests:**
 
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#16](https://github.com/buluma/ansible-role-docker/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump actions/checkout from 3 to 4 [\#15](https://github.com/buluma/ansible-role-docker/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.8](https://github.com/buluma/ansible-role-docker/tree/1.0.8) (2023-12-24)
 
@@ -63,6 +63,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/checkout from 3 to 4 [\#15](https://github.com/buluma/ansible-role-docker/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#3](https://github.com/buluma/ansible-role-docker/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.3](https://github.com/buluma/ansible-role-docker/tree/1.0.3) (2022-03-20)
