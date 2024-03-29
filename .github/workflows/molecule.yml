@@ -46,8 +46,8 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - image: "docker-molecule-images"
-            tag: "alpine-openrc"
+          - image: "alpine"
+            tag: "all"
           - image: "docker-molecule-images"
             tag: "buster"
           - image: "docker-molecule-images"
@@ -68,10 +68,6 @@ jobs:
             tag: "bionic"
           - image: "docker-molecule-images"
             tag: "jammy"
-          - image: "docker-molecule-images"
-            tag: "lunar"
-          - image: "docker-molecule-images"
-            tag: "noble"
     steps:
       - name: Checkout Role
         uses: actions/checkout@v4
