@@ -46,8 +46,8 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - image: "alpine-openrc"
-            tag: "latest"
+          - image: "docker-molecule-images"
+            tag: "alpine-openrc"
           - image: "docker-molecule-images"
             tag: "buster"
           - image: "docker-molecule-images"
