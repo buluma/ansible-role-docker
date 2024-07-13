@@ -8,9 +8,6 @@ galaxy_info:
   min_ansible_version: "2.12"
 
   platforms:
-    - name: Alpine
-      versions:
-        - all
     - name: Debian
       versions:
         - all
@@ -19,7 +16,10 @@ galaxy_info:
         - all
     - name: Ubuntu
       versions:
-        - all
+        - focal
+        - bionic
+        - jammy
+        - noble
 
   galaxy_tags:
     - docker

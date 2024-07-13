@@ -47,8 +47,6 @@ jobs:
       matrix:
         config:
           - image: "docker-molecule-images"
-            tag: "alpine-openrc"
-          - image: "docker-molecule-images"
             tag: "buster"
           - image: "docker-molecule-images"
             tag: "bullseye"
@@ -59,13 +57,11 @@ jobs:
           - image: "docker-molecule-images"
             tag: "rawhide"
           - image: "docker-molecule-images"
-            tag: "ubuntu_latest"
-          - image: "docker-molecule-images"
             tag: "focal"
           - image: "docker-molecule-images"
-            tag: "jammy"
+            tag: "bionic"
           - image: "docker-molecule-images"
-            tag: "lunar"
+            tag: "jammy"
           - image: "docker-molecule-images"
             tag: "noble"
     steps:
