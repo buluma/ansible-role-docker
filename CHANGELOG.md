@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 24.10.0 to 24.12.0 [\#33](https://github.com/buluma/ansible-role-docker/pull/33) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.9.2 to 24.10.0 [\#32](https://github.com/buluma/ansible-role-docker/pull/32) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.9.0 to 24.9.2 [\#31](https://github.com/buluma/ansible-role-docker/pull/31) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#30](https://github.com/buluma/ansible-role-docker/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -24,10 +25,6 @@
 ## [1.3.0](https://github.com/buluma/ansible-role-docker/tree/1.3.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-docker/compare/1.2.0...1.3.0)
-
-**Merged pull requests:**
-
-- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#22](https://github.com/buluma/ansible-role-docker/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.2.0](https://github.com/buluma/ansible-role-docker/tree/1.2.0) (2024-01-09)
 
@@ -75,6 +72,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#22](https://github.com/buluma/ansible-role-docker/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#3](https://github.com/buluma/ansible-role-docker/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.3](https://github.com/buluma/ansible-role-docker/tree/1.0.3) (2022-03-20)
