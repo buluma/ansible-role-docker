@@ -5,4 +5,4 @@
 repository:
   description: Install and configure Docker (non-CE) on your system.
   homepage: https://buluma.github.io/
-  topics: docker, ansible, molecule, tox, playbook
+  topics: docker, ansible, molecule, playbook
