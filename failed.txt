@@ -1,0 +1,1 @@
+ansible-role-docker [generator]: ERROR: Unhandled exception when retrieving 'DEFAULT_LOCAL_TMP': [Errno 1] Operation not permitted: '/Users/shadowwalker/.ansible/tmp/ansible-local-83547s32cq3dv'
