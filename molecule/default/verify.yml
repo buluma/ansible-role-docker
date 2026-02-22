@@ -1,32 +1,29 @@
----
-- name: Verify
-  hosts: all
-  become: true
+- become: true
   gather_facts: false
-
+  hosts: all
+  name: Verify
   tasks:
-    - name: Check docker group configuration
-      ansible.builtin.lineinfile:
-        path: /etc/group
-        regex: '^docker:x:\d*:woody,buzz$'
-        state: absent
-      check_mode: true
-      register: docker_group
-      changed_when: not docker_group is changed
-      failed_when: docker_group is changed
-
-    - name: Create a container
-      docker_container:
-        name: openssh
-        image: buluma/docker-centos-openssh
-        ports:
-          - "2222:22"
-      when:
-        - ansible_connection not in [ "container", "docker", "community.docker.docker" ]
-
-    - name: Make sure we are not running podman
-      ansible.builtin.command:
-        cmd: docker --version
-      register: docker_test_one
-      failed_when:
-        - '"podman" in docker_test_one.stdout'
+  - ansible.builtin.lineinfile:
+      path: /etc/group
+      regex: ^docker:x:\d*:woody,buzz$
+      state: absent
+    changed_when: not docker_group is changed
+    check_mode: true
+    failed_when: docker_group is changed
+    name: Check docker group configuration
+    register: docker_group
+  - docker_container:
+      image: buluma/docker-centos-openssh
+      name: openssh
+      ports:
+      - '2222:22'
+    name: Create a container
+    when:
+    - ansible_connection not in [ "container", "docker", "community.docker.docker"
+      ]
+  - ansible.builtin.command:
+      cmd: docker --version
+    failed_when:
+    - '"podman" in docker_test_one.stdout'
+    name: Make sure we are not running podman
+    register: docker_test_one
