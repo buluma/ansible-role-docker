@@ -11,39 +11,41 @@ Install and configure Docker (non-CE) on your system.
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-docker/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
-- become: true
-  gather_facts: true
-  hosts: all
-  name: Converge
-  roles:
-  - docker_privileged_users:
-    - woody
-    - buzz
-    role: buluma.docker
-  tasks:
-  - ansible.builtin.user:
-      name: '{{ user }}'
-    loop:
-    - woody
-    - buzz
-    loop_control:
-      loop_var: user
-    name: Create test case users
+---
+  - become: true
+    gather_facts: true
+    hosts: all
+    name: Converge
+    roles:
+      - docker_privileged_users:
+          - woody
+          - buzz
+        role: buluma.docker
+    tasks:
+      - ansible.builtin.user:
+          name: '{{ user }}'
+        loop:
+          - woody
+          - buzz
+        loop_control:
+          loop_var: user
+        name: Create test case users
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-docker/blob/master/molecule/default/prepare.yml):
 
 ```yaml
-- become: true
-  gather_facts: false
-  hosts: all
-  name: Prepare
-  roles:
-  - role: buluma.bootstrap
-  - role: buluma.core_dependencies
-  - role: buluma.buildtools
-  - role: buluma.epel
-  - role: buluma.python_pip
+---
+  - become: true
+    gather_facts: false
+    hosts: all
+    name: Prepare
+    roles:
+      - role: buluma.bootstrap
+      - role: buluma.core_dependencies
+      - role: buluma.buildtools
+      - role: buluma.epel
+      - role: buluma.python_pip
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -53,6 +55,7 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-docker/blob/master/defaults/main.yml):
 
 ```yaml
+---
 docker_privileged_users: []
 ```
 
