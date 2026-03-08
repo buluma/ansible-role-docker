@@ -4,8 +4,8 @@
   hosts: all
   name: Prepare
   roles:
-  - role: buluma.bootstrap
-  - role: buluma.core_dependencies
-  - role: buluma.buildtools
-  - role: buluma.epel
-  - role: buluma.python_pip
+    - role: buluma.bootstrap
+    - role: buluma.core_dependencies
+    - role: buluma.buildtools
+    - role: buluma.epel
+    - role: buluma.python_pip

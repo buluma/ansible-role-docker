@@ -4,16 +4,16 @@
   hosts: all
   name: Converge
   roles:
-  - docker_privileged_users:
-    - woody
-    - buzz
-    role: buluma.docker
+    - docker_privileged_users:
+        - woody
+        - buzz
+      role: buluma.docker
   tasks:
-  - ansible.builtin.user:
-      name: '{{ user }}'
-    loop:
-    - woody
-    - buzz
-    loop_control:
-      loop_var: user
-    name: Create test case users
+    - ansible.builtin.user:
+        name: "{{ user }}"
+      loop:
+        - woody
+        - buzz
+      loop_control:
+        loop_var: user
+      name: Create test case users
