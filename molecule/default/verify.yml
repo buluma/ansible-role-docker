@@ -1,6 +1,7 @@
 ---
 - become: true
   gather_facts: false
+- name: Verify
   hosts: all
   name: Verify
   tasks:
@@ -23,6 +24,7 @@
         - ansible_connection not in [ "container", "docker",
           "community.docker.docker" ]
     - ansible.builtin.command:
+    changed_when: false
         cmd: docker --version
       failed_when:
         - '"podman" in docker_test_one.stdout'
