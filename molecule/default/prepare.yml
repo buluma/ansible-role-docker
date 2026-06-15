@@ -3,7 +3,12 @@
   hosts: all
   become: true
   gather_facts: false
-  pre_tasks:
+  roles:
+    - role: buluma.bootstrap
+    - role: buluma.core_dependencies
+    - role: buluma.buildtools
+    - role: buluma.epel
+  tasks:
     - name: Find EXTERNALLY-MANAGED files
       ansible.builtin.find:
         paths:
@@ -24,9 +29,6 @@
       args:
         creates: "{{ item.path }}.old"
       changed_when: true
-  roles:
-    - role: buluma.bootstrap
-    - role: buluma.core_dependencies
-    - role: buluma.buildtools
-    - role: buluma.epel
-    - role: buluma.python_pip
+    - name: Install python_pip role
+      ansible.builtin.import_role:
+        name: buluma.python_pip
