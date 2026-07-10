@@ -3,32 +3,16 @@
   hosts: all
   become: true
   gather_facts: false
+
+  pre_tasks:
+    - name: Install sudo if missing
+      ansible.builtin.raw: "{{ ansible_pkg_mgr | default('dnf') }} install -y sudo}"
+      become: false
+      changed_when: false
+      failed_when: false
+
   roles:
     - role: buluma.bootstrap
     - role: buluma.core_dependencies
     - role: buluma.buildtools
     - role: buluma.epel
-  tasks:
-    - name: Find EXTERNALLY-MANAGED files
-      ansible.builtin.find:
-        paths:
-          - /usr/lib
-          - /usr/local/lib
-        patterns:
-          - "EXTERNALLY-MANAGED"
-        recurse: true
-        file_type: file
-      register: externally_managed_files
-    - name: Rename EXTERNALLY-MANAGED files
-      ansible.builtin.command:
-        cmd: "mv {{ item.path }} {{ item.path }}.old"
-      loop: "{{ externally_managed_files.files }}"
-      loop_control:
-        label: "{{ item.path }}"
-      when: externally_managed_files.matched > 0
-      args:
-        creates: "{{ item.path }}.old"
-      changed_when: true
-    - name: Install python_pip role
-      ansible.builtin.import_role:
-        name: buluma.python_pip
