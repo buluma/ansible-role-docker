@@ -1,11 +1,18 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-docker/tree/HEAD)
+## [26.6.1](https://github.com/buluma/ansible-role-docker/tree/26.6.1) (2026-06-15)
 
-[Full Changelog](https://github.com/buluma/ansible-role-docker/compare/24.3.31...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-docker/compare/26.6.0...26.6.1)
+
+## [26.6.0](https://github.com/buluma/ansible-role-docker/tree/26.6.0) (2026-06-14)
+
+[Full Changelog](https://github.com/buluma/ansible-role-docker/compare/24.3.31...26.6.0)
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 26.2.0 to 26.3.0 [\#41](https://github.com/buluma/ansible-role-docker/pull/41) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible/ansible-lint from 26.1.1 to 26.2.0 [\#39](https://github.com/buluma/ansible-role-docker/pull/39) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 4 to 6 [\#38](https://github.com/buluma/ansible-role-docker/pull/38) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.2 to 25.1.0 [\#36](https://github.com/buluma/ansible-role-docker/pull/36) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.1 to 24.12.2 [\#35](https://github.com/buluma/ansible-role-docker/pull/35) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.0 to 24.12.1 [\#34](https://github.com/buluma/ansible-role-docker/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
