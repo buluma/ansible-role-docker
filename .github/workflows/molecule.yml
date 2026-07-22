@@ -45,14 +45,6 @@ jobs:
       matrix:
         distro:
           - image: "docker-molecule-images"
-            tag: "rockylinux10"
-          - image: "docker-molecule-images"
-            tag: "almalinux10"
-          - image: "docker-molecule-images"
-            tag: "rockylinux9"
-          - image: "docker-molecule-images"
-            tag: "almalinux9"
-          - image: "docker-molecule-images"
             tag: "debian13"
           - image: "docker-molecule-images"
             tag: "debian12"

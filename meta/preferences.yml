@@ -2,10 +2,10 @@
 # Pins the CI platform/version matrix for this role. Without this, ansible-generator
 # falls back to default_platforms and silently discards these choices on regenerate.
 platforms:
-  - name: EL
-    versions:
-      - "10"
-      - "9"
+  # EL excluded: this role has no repository-setup logic, so it only
+  # works where the OS's own repos already carry a docker package
+  # (Debian's docker.io, Fedora's moby-engine). RHEL/Rocky/AlmaLinux
+  # never carried one; ansible-role-docker_ce handles that case.
   - name: Debian
     versions:
       - all
